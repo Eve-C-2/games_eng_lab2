@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
-project(setup)
+project(pong)
 
 # Require modern C++
 set(CMAKE_CXX_STANDARD 14)
@@ -17,6 +17,6 @@ set(SFML_INCS "lib/SFML-2.6.2/include")
 link_directories("${CMAKE_BINARY_DIR}/lib/SFML-2.6.2/lib")
 
 #### Practical 2 ###
-add_executable(lab_2 main.cpp)
-target_include_directories(lab_2 PRIVATE ${SFML_INCS})
-target_link_libraries(lab_2 sfml-graphics)
+add_executable(pong main.cpp)
+target_include_directories(pong PRIVATE ${SFML_INCS})
+target_link_libraries(pong sfml-graphics)
