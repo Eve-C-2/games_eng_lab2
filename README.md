@@ -1,2 +1,2 @@
-# games_eng_setup_1
-games engineering project setup
+# games_eng_lab2
+games engineering lab 2
