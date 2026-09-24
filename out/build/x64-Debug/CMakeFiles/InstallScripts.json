@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/System/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/Main/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/Window/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/Network/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/Graphics/cmake_install.cmake",
+		"C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug/lib/SFML-2.6.2/src/SFML/Audio/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
