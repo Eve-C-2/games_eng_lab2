@@ -154,15 +154,15 @@
 			[
 				{
 					"id" : "sfml-system::@9cb62ca496bc04b88842",
-					"index" : 5
+					"index" : 6
 				},
 				{
 					"id" : "sfml-main::@d7cc7c144ce5ccfc2c16",
-					"index" : 3
+					"index" : 4
 				},
 				{
 					"id" : "sfml-window::@8f93859866fd0957cfe0",
-					"index" : 6
+					"index" : 7
 				},
 				{
 					"id" : "OpenGL::@8f93859866fd0957cfe0",
@@ -170,11 +170,11 @@
 				},
 				{
 					"id" : "sfml-network::@d1ec0646967f3a6909b1",
-					"index" : 4
+					"index" : 5
 				},
 				{
 					"id" : "sfml-graphics::@64ff27a96012c44ceacf",
-					"index" : 2
+					"index" : 3
 				},
 				{
 					"id" : "Freetype::@64ff27a96012c44ceacf",
@@ -190,7 +190,7 @@
 				},
 				{
 					"id" : "sfml-audio::@f205961364e68fce72c4",
-					"index" : 1
+					"index" : 2
 				}
 			],
 			"paths" : 

@@ -72,7 +72,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -82,7 +83,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2-Debug-4a515b943b0a626ee39d.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2-Debug-2ae111fa7625ad19c1d3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -115,7 +116,7 @@
 				{
 					"build" : "lib/SFML-2.6.2/src/SFML/System",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.System-Debug-89e8c96dacb66dda2e64.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.System-Debug-6cf0120af6261e9b0465.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -125,13 +126,13 @@
 					"source" : "lib/SFML-2.6.2/src/SFML/System",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
 					"build" : "lib/SFML-2.6.2/src/SFML/Main",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Main-Debug-b6e99776257760a07872.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Main-Debug-c76ebba32735fc599cd6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -141,7 +142,7 @@
 					"source" : "lib/SFML-2.6.2/src/SFML/Main",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -153,7 +154,7 @@
 					],
 					"build" : "lib/SFML-2.6.2/src/SFML/Window",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Window-Debug-88bad96c129393ae3de0.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Window-Debug-8f0144aa7c1309e15a65.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -163,13 +164,13 @@
 					"source" : "lib/SFML-2.6.2/src/SFML/Window",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
 					"build" : "lib/SFML-2.6.2/src/SFML/Network",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Network-Debug-9872843391e421f4f891.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Network-Debug-6d80b8275d1fe0a9863b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -179,7 +180,7 @@
 					"source" : "lib/SFML-2.6.2/src/SFML/Network",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -189,7 +190,7 @@
 					],
 					"build" : "lib/SFML-2.6.2/src/SFML/Graphics",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Graphics-Debug-efd8c33445bb56f86c87.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Graphics-Debug-0029ecd25903f355dc7a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -199,7 +200,7 @@
 					"source" : "lib/SFML-2.6.2/src/SFML/Graphics",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -211,7 +212,7 @@
 					],
 					"build" : "lib/SFML-2.6.2/src/SFML/Audio",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Audio-Debug-1155dedbfb223e76d1e4.json",
+					"jsonFile" : "directory-lib.SFML-2.6.2.src.SFML.Audio-Debug-83b1b96595e57733fb9b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -221,7 +222,7 @@
 					"source" : "lib/SFML-2.6.2/src/SFML/Audio",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -237,10 +238,11 @@
 					[
 						0
 					],
-					"name" : "setup",
+					"name" : "pong",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -269,12 +271,12 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1,
 						2,
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -282,9 +284,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "lab_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab_2-Debug-2e5ebee762a8033a24e5.json",
-					"name" : "lab_2",
+					"id" : "copy_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_resources-Debug-790e35a32c25797a098e.json",
+					"name" : "copy_resources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pong-Debug-b79dc391420bb5399fab.json",
+					"name" : "pong",
 					"projectIndex" : 0
 				},
 				{

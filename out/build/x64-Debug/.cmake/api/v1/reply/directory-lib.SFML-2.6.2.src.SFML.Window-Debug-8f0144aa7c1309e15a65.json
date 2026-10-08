@@ -9,7 +9,7 @@
 		"files" : 
 		[
 			"lib/SFML-2.6.2/cmake/Macros.cmake",
-			"lib/SFML-2.6.2/src/SFML/Audio/CMakeLists.txt"
+			"lib/SFML-2.6.2/src/SFML/Window/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -19,7 +19,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 80,
+				"line" : 284,
 				"parent" : 0
 			},
 			{
@@ -43,10 +43,10 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"lib/SFML-2.6.2/lib/sfml-audio-d.lib"
+				"lib/SFML-2.6.2/lib/sfml-window-d.lib"
 			],
-			"targetId" : "sfml-audio::@f205961364e68fce72c4",
-			"targetIndex" : 1,
+			"targetId" : "sfml-window::@8f93859866fd0957cfe0",
+			"targetIndex" : 7,
 			"targetIsImportLibrary" : true,
 			"type" : "target"
 		},
@@ -56,16 +56,16 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"bin/sfml-audio-d-2.dll"
+				"bin/sfml-window-d-2.dll"
 			],
-			"targetId" : "sfml-audio::@f205961364e68fce72c4",
-			"targetIndex" : 1,
+			"targetId" : "sfml-window::@8f93859866fd0957cfe0",
+			"targetIndex" : 7,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "lib/SFML-2.6.2/src/SFML/Audio",
-		"source" : "lib/SFML-2.6.2/src/SFML/Audio"
+		"build" : "lib/SFML-2.6.2/src/SFML/Window",
+		"source" : "lib/SFML-2.6.2/src/SFML/Window"
 	}
 }

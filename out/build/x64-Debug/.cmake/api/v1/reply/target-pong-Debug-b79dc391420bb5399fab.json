@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/lab_2.exe"
+			"path" : "bin/pong.exe"
 		},
 		{
-			"path" : "bin/lab_2.pdb"
+			"path" : "bin/pong.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -16,6 +16,7 @@
 			"add_executable",
 			"link_directories",
 			"target_link_libraries",
+			"add_dependencies",
 			"target_include_directories"
 		],
 		"files" : 
@@ -32,19 +33,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 22,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
@@ -68,7 +69,13 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 21,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 20,
 				"parent" : 0
 			}
 		]
@@ -97,7 +104,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/lib/SFML-2.6.2/include"
 				}
 			],
@@ -119,6 +126,10 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 8,
+			"id" : "copy_resources::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 3,
 			"id" : "sfml-system::@9cb62ca496bc04b88842"
 		},
@@ -131,7 +142,7 @@
 			"id" : "sfml-graphics::@64ff27a96012c44ceacf"
 		}
 	],
-	"id" : "lab_2::@6890427a1f51a3e7e1df",
+	"id" : "pong::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -186,8 +197,15 @@
 			"id" : "sfml-graphics::@64ff27a96012c44ceacf"
 		}
 	],
-	"name" : "lab_2",
-	"nameOnDisk" : "lab_2.exe",
+	"name" : "pong",
+	"nameOnDisk" : "pong.exe",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "copy_resources::@6890427a1f51a3e7e1df"
+		}
+	],
 	"paths" : 
 	{
 		"build" : ".",

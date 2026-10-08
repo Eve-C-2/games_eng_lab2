@@ -184,7 +184,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=setup
+CMAKE_PROJECT_NAME:STATIC=pong
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -386,13 +386,13 @@ VORBIS_LIBRARY:FILEPATH=C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/lib/S
 WARNINGS_AS_ERRORS:BOOL=OFF
 
 //Value Computed by CMake
-setup_BINARY_DIR:STATIC=C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug
+pong_BINARY_DIR:STATIC=C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2/out/build/x64-Debug
 
 //Value Computed by CMake
-setup_IS_TOP_LEVEL:STATIC=ON
+pong_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-setup_SOURCE_DIR:STATIC=C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2
+pong_SOURCE_DIR:STATIC=C:/Users/evehc/source/repos/Eve-C-2/games_eng_lab2
 
 //Dependencies for the target
 sfml-audio_LIB_DEPENDS:STATIC=general;OpenAL::OpenAL;general;sfml-system;

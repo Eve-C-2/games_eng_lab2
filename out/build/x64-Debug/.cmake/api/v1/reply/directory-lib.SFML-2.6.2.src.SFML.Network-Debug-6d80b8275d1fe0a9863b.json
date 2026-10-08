@@ -46,7 +46,7 @@
 				"lib/SFML-2.6.2/lib/sfml-network-d.lib"
 			],
 			"targetId" : "sfml-network::@d1ec0646967f3a6909b1",
-			"targetIndex" : 4,
+			"targetIndex" : 5,
 			"targetIsImportLibrary" : true,
 			"type" : "target"
 		},
@@ -59,7 +59,7 @@
 				"bin/sfml-network-d-2.dll"
 			],
 			"targetId" : "sfml-network::@d1ec0646967f3a6909b1",
-			"targetIndex" : 4,
+			"targetIndex" : 5,
 			"type" : "target"
 		}
 	],
